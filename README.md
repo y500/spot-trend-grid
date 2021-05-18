@@ -43,6 +43,8 @@ python3 create_data.py
 根据提示输入对应内容
 ```
 
+> 如果这里返回 "-2015 Invalid API-key, IP, or permissions for action" 并且确认api-key没问题的话，那就可能是合约没开启，需要把合约打开，然后重新申请api-key即刻
+
 4. 运行主文件
 ```
 # nohup python3 run.py > run.log &  #后台挂载 程序买卖、异常会通过钉钉通知(推荐使用钉钉模式启动👍)
